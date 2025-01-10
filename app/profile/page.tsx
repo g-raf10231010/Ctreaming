@@ -10,34 +10,35 @@ export default function Profile() {
         </div>
         
         {/* Main Menu Items */}
-        <div className="p-4 flex-1">
-          <ul className="space-y-2">
-            <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
-              <a href="/" className="block">Dashboard</a>
-            </li>
-            <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
-              <a href="/campaigns" className="block">Campaigns</a>
-            </li>
-            <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
-              <a href="/discover" className="block">Discover</a>
-            </li>
-            <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
-              <a href="/messages" className="block">Messages</a>
-            </li>
-            <li className="p-2 bg-blue-100 rounded-md cursor-pointer">
-              <a href="/profile" className="block">Profile</a>
-            </li>
-          </ul>
-        </div>
+        {/* Main Menu Items */}
+<div className="p-4 flex-1">
+  <ul className="space-y-2">
+    <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+      <a href="/" className="text-gray-900">Dashboard</a>
+    </li>
+    <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+      <a href="/campaigns" className="text-gray-900">Campaigns</a>
+    </li>
+    <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+      <a href="/discover" className="text-gray-900">Discover</a>
+    </li>
+    <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+      <a href="/messages" className="text-gray-900">Messages</a>
+    </li>
+    <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+      <a href="/profile" className="text-gray-900">Profile</a>
+    </li>
+  </ul>
+</div>
 
-        {/* Settings at Bottom */}
-        <div className="border-t p-4">
-          <ul>
-            <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
-              <a href="/settings" className="block">Settings</a>
-            </li>
-          </ul>
-        </div>
+{/* Settings at Bottom */}
+<div className="border-t p-4">
+  <ul>
+    <li className="p-2 hover:bg-blue-50 rounded-md cursor-pointer">
+      <a href="/settings" className="text-gray-900">Settings</a>
+    </li>
+  </ul>
+</div>
       </nav>
 
       {/* Main Content Area */}
